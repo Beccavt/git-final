@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Rebecca Truong">
+  <meta name="description" content="a silly litttle resort">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Silly Little Resort</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="wrapper header-row">
+      <h1 class="site-title"><a href="index.html">Silly Little Resort</a></h1>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Accommodations</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+        <section class="hero">
+            <img src="images/swiss-sunset.jpg" alt="Swiss valley landscape">
+        </section>
+
+  <main class="site-main">
+    <div class="wrapper">
+      <section class="intro" aria-label="Contact intro">
+        <h2>Contact Us</h2>
+        <p>
+          Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+        </p>
+      <section class="contact-two-col">
+
+    <div class="contact-image">
+      <img src="images/swiss-peak.jpg"
+           alt="Snowy Swiss peak"
+           width="590"
+           height="360">
+    </div>
+
+
+    <div>
+
+      <form class="contact-method" method="post" action="https://wp.zybooks.com/form-viewer.php">
+
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+
+
+        <fieldset class="contact-method">
+            <legend>Preferred Contact Method *</legend>
+
+            <div class="radio-row">
+                <input type="radio" id="contact-email" name="contact" value="email" required>
+                <label for="contact-email">Email</label>
+
+                <input type="radio" id="contact-phone" name="contact" value="phone">
+                <label for="contact-phone">Phone</label>
+            </div>
+        </fieldset>
+     
+        <label for="comments">Leave a Comment </label>
+        <textarea id="comments" name="comments" rows="6" ></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+     </section>
+    </div>
+</main>
+
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p> &copy;2026 - Silly Little Resort</p>
+      <p>This site is for educational purposes only</p>
+    </div>
+  </footer>
+</body>
+</html>
